@@ -1,26 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-</head>
-<body>
-    <h1>Testando o JS</h1>
-    <script>
-        // let = lista
-        // document tem a função de navegar pelo body
+<html>
+    <head>
+        <title>Olá pessoas</title>
+    </head>
 
+    <body>
+        <script>
+            let ListaCores = ['purple', 'red', 'green', 'blue']
+            document.body.style.backgroundColor = ListaCores[0];
 
-        let ListaCores = ['darkred', 'red', 'green', 'blue'];
-        document.body.style.backgroundColor = ListaCores[0];
+            function Cores(){
+                document.body.style.backgroundColor = ListaCores[Math.floor(5* Math.random())]
+            }
 
-        function TrocarCores(){
-            document.body.style.backgroundColor = ListaCores[Math.floor(5 * Math.random())];
-        }
-
-        setInterval(TrocarCores, 1);
-    </script>
-</body>
+            setInterval(Cores, 1)
+        </script>
+    </body>
 </html>
