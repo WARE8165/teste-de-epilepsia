@@ -1,0 +1,45 @@
+.body {
+  background-size: 100vh;
+  background-repeat: no-repeat;
+}
+
+.titulo1{
+  color: red;
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-color: darkred;
+  border-radius: 10px;
+}
+
+.link{
+  font-size: 20px;
+  margin: 10px;
+  bottom: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 4px;
+}
+
+.texto1{
+  color: red;
+  font-size: 20px;
+}
+
+.linha1{
+  color: red;
+  text-shadow: 1px 1px 0 mediumpurple;
+}
+
+.detalhes{
+  color: red;
+  font-size: 35px;
+  background-color: #404040AB;
+  border-radius: 10px;
+  padding: 3px;
+  display: inline-block;
+  border-width: 3px;
+  border-style: solid;
+  border-color: darkred;
+}
